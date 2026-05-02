@@ -6,10 +6,11 @@ import (
 	"errors"
 	"log"
 
+	"wallet-assignment/internal/domain"
+
 	"github.com/google/uuid"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
-	"wallet-assignment/internal/domain"
 )
 
 type TransferService struct {
