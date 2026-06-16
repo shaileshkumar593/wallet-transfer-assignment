@@ -5,3 +5,9 @@ build/
 .tmp/
 .env
 .env.*
+go.mod
+go.sum
+*.log
+*.out
+create-project.ps1
+
